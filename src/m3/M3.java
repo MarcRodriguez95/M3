@@ -24,9 +24,13 @@ public class M3 {
         n1 = teclado.nextInt();
         System.out.println("Introducir el segundo numero");
         n2 = teclado.nextInt();
-       
-        resultado = n1 + n2;  
-        System.out.println("El resultado es:" + resultado);
+        System.out.println("Introducir el resultado de la suma");
+         resultado  = teclado.nextInt();
+        if (n1 + n2 == resultado){
+            System.out.println("Correcto");
+        } else{
+            System.out.println("Error");
+        }
         // TODO code application logic here
     }
     
