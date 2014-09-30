@@ -23,6 +23,10 @@ public class Tipos_de_datos_primitivos {
         boolean s3 = true;
         System.out.println (s1 && s3);
         
+        System.out.println(((3 + 4) == 7 )&&!(12.3 > 2.11)||('a' == 'b'));
+        
+        
+        System.out.println( );
     }              
 }
       
