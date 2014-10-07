@@ -18,8 +18,7 @@ public class Luces {
         
         boolean luz1;
         boolean luz2;
-        
-        luz1= ( )
+       
                
         
         
