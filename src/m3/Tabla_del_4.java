@@ -13,13 +13,12 @@ public class Tabla_del_4 {
     public static void main(String[] args) {
         
         int tabla=4;
-        int indice=0;
-        System.out.println(tabla*indice);
-        System.out.println(tabla*indice+1);
-        System.out.println(tabla*indice+2);
-        System.out.println(tabla*indice+3);
-        System.out.println(tabla*indice+4);
-        System.out.println(tabla*indice+5);
+        System.out.println(1*tabla);
+        System.out.println(2*tabla);
+        System.out.println(3*tabla);
+        System.out.println(4*tabla);
+        System.out.println(5*tabla);
+        System.out.println(6*tabla);
         
     }
     
