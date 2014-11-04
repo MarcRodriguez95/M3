@@ -15,36 +15,38 @@ public class Ejercicio_notas {
 
         Scanner entrada = new Scanner(System.in);
 
-        System.out.print("introducir nota");
+        System.out.println("introducir nota");
         
         double n;
 
         n = entrada.nextDouble();
 
-        String fin ;
+        String fin = ("Tu nota és: ");
+        
 
-        if (n >= 9 && n <= 10) {
+        if (n >= 9.75 && n <= 10.0) {
 
-            fin = ("Excelente");
+            System.out.println(fin + "M");
             
-        } else if (n >= 7 && n <= 8) {
+        } else if (n >= 8.5 && n < 9.75) {
 
-            fin = ("Notable");
+            System.out.println(fin + "E"); 
             
-        } else if (n >= 6 && n < 7) {
+        } else if (n >= 6.5 && n < 8.5) {
 
-            fin = ("Bé");
+            System.out.println(fin + "N");
             
-        } else if (n >= 5 && n < 6) {
+        } else if (n >= 5.0 && n < 6.5) {
 
-            fin = ("Suficient");
+            System.out.println(fin + "A");
             
-        } else if (n >= 0 && n < 5) {
+        } else if (n >= 0.0 && n < 5.0) {
 
-            fin = ("Suspés");
-           System.out.print(fin);
+            System.out.println(fin + "S");
+           
+          
         }   
-      
+   
 
     }
   

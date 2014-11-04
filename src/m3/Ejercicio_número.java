@@ -26,7 +26,7 @@ public class Ejercicio_número {
         String mensaje;
         
         System.out.println("Empezar juego");
-        
+        //salto de linia(println).
         
        
         System.out.print("Introducir un numero");
