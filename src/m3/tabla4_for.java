@@ -5,18 +5,21 @@
  */
 package m3;
 
-import java.util.Scanner;
 /**
  *
  * @author Marc
  */
-public class numero_mes {
+public class tabla4_for {
+    private static final int N = 4;
     public static void main (String [] args){
         
-        Scanner entrada = new Scanner(System.in);
-        
-        
-    
+        int i;
+        int producto;
+        for (i=0; i<=10; i++) {
+            producto = N * i;
+            System.out.println(N + " * " + i + " = " + producto);
+      
+        }
     
     }
     

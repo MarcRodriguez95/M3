@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package m3;
+
 import java.util.Scanner;
+
 /**
  *
  * @author Marc
@@ -16,47 +18,47 @@ public class Ejercicio_notas {
         Scanner entrada = new Scanner(System.in);
 
         System.out.println("introducir nota");
-        
+
         double n;
+
+        char acta;
 
         n = entrada.nextDouble();
 
         String fin = ("Tu nota és: ");
-        
 
         if (n >= 9.75 && n <= 10.0) {
 
-            System.out.println(fin + "M");
-            
+            acta = 'M';
+
+            System.out.print(fin + acta);
+
         } else if (n >= 8.5 && n < 9.75) {
 
-            System.out.println(fin + "E"); 
-            
+            acta = 'E';
+
+            System.out.println(fin + acta);
+
         } else if (n >= 6.5 && n < 8.5) {
 
-            System.out.println(fin + "N");
-            
+            acta = 'N';
+
+            System.out.println(fin + acta);
+
         } else if (n >= 5.0 && n < 6.5) {
 
-            System.out.println(fin + "A");
-            
+            acta = 'A';
+
+            System.out.println(fin + acta);
+
         } else if (n >= 0.0 && n < 5.0) {
 
-            System.out.println(fin + "S");
-           
-          
-        }   
-   
+            acta = 'S';
+
+            System.out.println(fin + acta);
+
+        }
 
     }
-  
+
 }
-
-           
-    
-    
-
-  
-
-
- 
